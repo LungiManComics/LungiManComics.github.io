@@ -1,1 +1,74 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Comics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            color: #444;
+            padding: 0.5rem 1rem;
+            background: #ddd;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+        .nav-buttons a:hover {
+            background: #bbb;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+            background: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daily Comics</h1>
+        <p>Laugh every day with a new comic strip!</p>
+    </header>
+    <div class="container">
+        <img src="latest-comic.jpg" alt="Latest Comic">
+        <div class="nav-buttons">
+            <a href="#previous">Previous</a>
+            <a href="#next">Next</a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Daily Comics. All rights reserved.
+    </footer>
+</body>
+</html>
