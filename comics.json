@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "date": "2024-12-26",
+        "image": "images/lungiman-logo.webp",
+        "title": "Logo"
+    },
+    {
+        "id": 2,
+        "date": "2024-12-27",
+        "image": "images/brushfire.webp",
+        "title": "BrushFire"
+    }
+]
