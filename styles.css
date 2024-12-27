@@ -1,34 +1,34 @@
-/* General styles */
+/* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f9fc;
+    background-color: #fdf6e3;
     color: #333;
 }
 
 /* Header */
 header {
-    background: #444;
+    background: #ff6f61;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
     margin: 0;
-    font-size: 2.5rem;
-    font-weight: 600;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 5px;
 }
 
 /* Container */
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -37,22 +37,26 @@ header p {
 #comic-section {
     text-align: center;
     margin: 20px 0;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #comic-title {
-    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: #ff6f61;
     margin-bottom: 15px;
-    font-weight: 600;
-    color: #444;
 }
 
 #comic-image {
     width: 100%;
     max-width: 600px;
     height: auto;
-    border: 5px solid #ddd;
+    border: 3px solid #333;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation Buttons */
@@ -65,41 +69,63 @@ header p {
 .button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #444;
+    background-color: #ff6f61;
     color: #fff;
-    border: none;
+    border: 2px solid #333;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
     transition: all 0.3s ease;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #ffa07a;
+    transform: scale(1.05);
 }
 
 .button:disabled {
-    background-color: #aaa;
+    background-color: #ccc;
+    border-color: #999;
     cursor: not-allowed;
 }
 
-/* Footer */
-footer {
-    background: #444;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+/* Archive Section */
+#archive-section {
     margin-top: 40px;
-    font-size: 0.9rem;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2rem;
-    }
+#archive-section h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
 
-    .button {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-    }
+#archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+#archive-grid div {
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+#archive-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#archive-grid a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-size: 0.9rem;
 }
