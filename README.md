@@ -1,1 +1,1 @@
-"# LungiManComics.github.io" 
+Check daily comics at: https://lungimancomics.github.io/
