@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "date": "2024-12-26",
-        "image": "images/lungiman-logo.webp",
-        "title": "Logo"
-    },
-    {
-        "id": 2,
         "date": "2024-12-27",
         "image": "images/brushfire.webp",
         "title": "BrushFire"
     },
     {
-        "id": 3,
+        "id": 2,
         "date": "2024-12-28",
         "image": "images/people-and-bear.png",
         "title": "Aesop Tales"
+    },
+    {
+        "id": 3,
+        "date": "2025-1-17",
+        "image": "images/tiktok-ban.png",
+        "title": "Supreme Court upholds law requiring TikTok ban or sale, set to take effect Sunday"
     }
 ]
